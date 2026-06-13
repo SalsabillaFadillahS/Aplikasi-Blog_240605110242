@@ -12,8 +12,12 @@ use App\Http\Controllers\PublikController;
 // ROUTE PUBLIK
 // ================================================
 Route::get('/', [PublikController::class, 'index'])->name('publik.index');
-Route::get('/kategori/{id}', [PublikController::class, 'kategori'])->name('publik.kategori');
-Route::get('/artikel/{id}', [PublikController::class, 'detail'])->name('publik.detail');
+
+Route::get('/blog/kategori/{id}', [PublikController::class, 'kategori'])
+    ->name('publik.kategori');
+
+Route::get('/blog/artikel/{id}', [PublikController::class, 'detail'])
+    ->name('publik.detail');
 
 // ================================================
 // ROUTE LOGIN

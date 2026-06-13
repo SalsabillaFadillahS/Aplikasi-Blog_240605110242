@@ -62,7 +62,7 @@
         .artikel-card .kategori-badge {
             display: inline-block;
             background: #e8f5e9;
-            color: #2e7d32;
+            color: #2b9fec;
             font-size: 11px;
             font-weight: 600;
             padding: 3px 10px;
@@ -87,7 +87,7 @@
             width: 26px;
             height: 26px;
             border-radius: 50%;
-            background: #2e7d32;
+            background: #00a7bd;
             color: #fff;
             display: inline-flex;
             align-items: center;
@@ -106,7 +106,7 @@
         }
 
         .btn-baca {
-            background: #2e7d32;
+            background: #0c34e7;
             color: #fff;
             font-size: 13px;
             padding: 7px 18px;
@@ -116,7 +116,7 @@
         }
 
         .btn-baca:hover {
-            background: #1b5e20;
+            background: #07f7ff;
             color: #fff;
         }
 
@@ -155,13 +155,13 @@
 
         .kategori-item.active {
             background: #e8f5e9;
-            color: #2e7d32;
+            color: #34e3f0;
             font-weight: 600;
         }
 
         .kategori-item .badge-count {
             background: #e8f5e9;
-            color: #2e7d32;
+            color: #1897ff;
             font-size: 11px;
             font-weight: 700;
             padding: 2px 8px;
@@ -169,7 +169,7 @@
         }
 
         .kategori-item.active .badge-count {
-            background: #2e7d32;
+            background: #17a2ff;
             color: #fff;
         }
 
@@ -199,7 +199,7 @@
         }
 
         .terkait-item .info a:hover {
-            color: #2e7d32;
+            color: #008cdd;
         }
 
         .terkait-item .info .tgl {

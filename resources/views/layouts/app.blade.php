@@ -60,7 +60,7 @@
 
         .nav-item.active {
             background: #e8f5e9;
-            color: #2e7d32;
+            color: #001b94;
             border-left-color: #4CAF50;
             font-weight: 600;
         }
